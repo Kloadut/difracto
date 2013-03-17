@@ -1,0 +1,173 @@
+---
+title: DiFRACTO
+---
+
+.top-left
+  %h1.logo
+    = link_to 'DiFRACTO', '/'
+    .icons
+      %i.icon-cloud.icon-large 
+      %i.icon-facebook-sign.icon-large 
+      %i.icon-envelope-alt.icon-large 
+  -#%h2 Bio
+  -#%h2 Contact
+
+#container
+  .case.red N E W
+  .case.yellow
+  .case.blue
+  .case.purple
+  .case.red2
+  .case.yellow2
+  .case.blue2
+  .case.purple2
+  .clearright
+
+  -#.decale
+    -#.case.red
+    -#.case.yellow
+    -#.case.blue
+    -#.case.purple
+    -#.case.red2
+    -#.case.yellow2
+    -#.case.blue2
+    -#.case.purple2
+    -#.clearright
+
+  .case.yellow
+  .case.blue
+  .case.purple
+  .case.red2
+  .case.yellow2
+  .case.blue2
+  .case.purple2
+  .clearright
+
+  -#.decale
+    -#.case.yellow
+    -#.case.blue
+    -#.case.purple
+    -#.case.red2
+    -#.case.yellow2
+    -#.case.blue2
+    -#.case.purple2
+    -#.clearright
+
+  .case.blue
+  .case.purple
+  .case.red2
+  .case.yellow2
+  .case.blue2
+  .case.purple2
+  .clearright
+
+  -#.decale
+    -#.case.blue
+    -#.case.purple
+    -#.case.red2
+    -#.case.yellow2
+    -#.case.blue2
+    -#.case.purple2
+    -#.clearright
+
+  .case.purple
+  .case.red2
+  .case.yellow2
+  .case.blue2
+  .case.purple2
+  .clearright
+
+  -#.decale
+    -#.case.purple
+    -#.case.red2
+    -#.case.yellow2
+    -#.case.blue2
+    -#.case.purple2
+
+.player
+  #video
+    #jp_container_1.jp-video
+      .jp-type-single
+        #jquery_jplayer_1.jp-jplayer
+        .jp-gui
+          .jp-video-play
+            %a.jp-video-play-icon{:href => "javascript:;", :tabindex => "1"} play
+          .jp-interface
+            .jp-progress
+              .jp-seek-bar
+                .jp-play-bar
+            .jp-current-time
+            .jp-duration
+            .jp-controls-holder
+              %ul.jp-controls
+                %li
+                  %a.jp-play{:href => "javascript:;", :tabindex => "1"} play
+                %li
+                  %a.jp-pause{:href => "javascript:;", :tabindex => "1"} pause
+                %li
+                  %a.jp-stop{:href => "javascript:;", :tabindex => "1"} stop
+                %li
+                  %a.jp-mute{:href => "javascript:;", :tabindex => "1", :title => "mute"} mute
+                %li
+                  %a.jp-unmute{:href => "javascript:;", :tabindex => "1", :title => "unmute"} unmute
+                %li
+                  %a.jp-volume-max{:href => "javascript:;", :tabindex => "1", :title => "max volume"} max volume
+              .jp-volume-bar
+                .jp-volume-bar-value
+              %ul.jp-toggles
+                %li
+                  %a.jp-full-screen{:href => "javascript:;", :tabindex => "1", :title => "full screen"} full screen
+                %li
+                  %a.jp-restore-screen{:href => "javascript:;", :tabindex => "1", :title => "restore screen"} restore screen
+                %li
+                  %a.jp-repeat{:href => "javascript:;", :tabindex => "1", :title => "repeat"} repeat
+                %li
+                  %a.jp-repeat-off{:href => "javascript:;", :tabindex => "1", :title => "repeat off"} repeat off
+            .jp-title
+              %ul
+                %li Big Buck Bunny Trailer
+        .jp-no-solution
+          %span Update Required
+          To play the media you will need to either update your browser to a recent version or update your
+          = succeed "." do
+            %a{:href => "http://get.adobe.com/flashplayer/", :target => "_blank"} Flash plugin
+
+  #audio
+    #jquery_jplayer_1.jp-jplayer
+    #jp_container_1.jp-audio
+      .jp-type-single
+        .jp-gui.jp-interface
+          %ul.jp-controls
+            %li
+              %a.jp-play{:href => "javascript:;", :tabindex => "1"} play
+            %li
+              %a.jp-pause{:href => "javascript:;", :tabindex => "1"} pause
+            %li
+              %a.jp-stop{:href => "javascript:;", :tabindex => "1"} stop
+            %li
+              %a.jp-mute{:href => "javascript:;", :tabindex => "1", :title => "mute"} mute
+            %li
+              %a.jp-unmute{:href => "javascript:;", :tabindex => "1", :title => "unmute"} unmute
+            %li
+              %a.jp-volume-max{:href => "javascript:;", :tabindex => "1", :title => "max volume"} max volume
+          .jp-progress
+            .jp-seek-bar
+              .jp-play-bar
+          .jp-volume-bar
+            .jp-volume-bar-value
+          .jp-time-holder
+            .jp-current-time
+            .jp-duration
+            %ul.jp-toggles
+              %li
+                %a.jp-repeat{:href => "javascript:;", :tabindex => "1", :title => "repeat"} repeat
+              %li
+                %a.jp-repeat-off{:href => "javascript:;", :tabindex => "1", :title => "repeat off"} repeat off
+        .jp-title
+          %ul
+            %li Bubble
+        .jp-no-solution
+          %span Update Required
+          To play the media you will need to either update your browser to a recent version or update your
+          = succeed "." do
+            %a{:href => "http://get.adobe.com/flashplayer/", :target => "_blank"} Flash plugin

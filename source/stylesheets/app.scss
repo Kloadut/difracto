@@ -1,0 +1,123 @@
+/* Site specific */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+//@import "fonts";
+
+$body-font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$header-font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+
+@import "foundation";
+@import "font-awesome";
+
+html, body {
+    min-height: 100%;
+    background-color: #0A0A0A;
+    color: #EEE;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.top-left {
+    margin: 10px 30px;
+    float: left;
+}
+
+h1.logo {
+    a {
+        display: block;
+        float: left;
+    }
+    div.icons {
+        float: left;
+        letter-spacing: 7px;
+        color: white;
+        padding-left: 22px;
+        padding-top: 20px;
+        font-size: 14px;
+    }
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearleft {
+    clear: left;
+}
+
+.clearright {
+    clear: right;
+}
+
+.decale {
+    //margin-right: -40px;
+}
+
+.case {
+    width: 80px;
+    height: 160px;
+    float: right;
+    color: #111;
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 50px;
+    padding: 0 13px;
+    //box-shadow: inset -1px -1px 0 #111;
+    &:hover {
+        cursor: pointer;
+    }
+    &.red {
+        background-color: #FF5050;
+    }
+    &.yellow {
+        background-color: #FF33CC;
+    }
+    &.blue {
+        background-color: #9966FF;
+    }
+    &.purple {
+        background-color: #0066FF;
+    }
+    &.red2 {
+        background-color: #33CCCC;
+    }
+    &.yellow2 {
+        background-color: #00FF00;
+    }
+    &.blue2 {
+        background-color: #99FF33;
+    }
+    &.purple2 {
+        background-color: #FFCC00;
+    }
+}
+
+.player {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+div.jp-audio,
+div.jp-video {
+  /* Edit the font-size to counteract inherited font sizing.
+   * Eg. 1.25em = 1 / 0.8em
+   */
+  font-size:1.25em;
+}
